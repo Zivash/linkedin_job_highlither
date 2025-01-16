@@ -57,5 +57,6 @@ linkedin-job-highlighter/
 
 ## 🖼️ Screenshots
 
-![Example 1](https://via.placeholder.com/600x400)  
+<img width="217" alt="Screenshot 2025-01-16 160238" src="https://github.com/user-attachments/assets/2b6ec26f-1427-4583-814a-ffe736530c72" />
+
 *Applied (Red), Saved (Green), and Viewed (Blue) job highlights.*
