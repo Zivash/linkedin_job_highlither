@@ -26,23 +26,6 @@
 
 ---
 
-## 📂 File Structure
-
-```
-linkedin-job-highlighter/
-├── manifest.json         # Chrome Extension configuration
-├── scripts/
-│   └── content.js        # Main script that highlights jobs
-├── images/
-│   ├── icon-16.png       # 16x16 icon
-│   ├── icon-32.png       # 32x32 icon
-│   ├── icon-48.png       # 48x48 icon
-│   └── icon-128.png      # 128x128 icon
-└── README.md             # This file
-```
-
----
-
 ## ✨ How It Works
 
 1. The script runs on LinkedIn job listing pages (`https://www.linkedin.com/jobs/`).
