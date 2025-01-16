@@ -59,34 +59,3 @@ linkedin-job-highlighter/
 
 ![Example 1](https://via.placeholder.com/600x400)  
 *Applied (Red), Saved (Green), and Viewed (Blue) job highlights.*
-
----
-
-## 📋 To-Do
-
-- [ ] Add support for more statuses (e.g., archived jobs).
-- [ ] Add a settings menu to customize colors.
-- [ ] Mobile compatibility (via alternative browsers like Kiwi).
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-Feel free to submit a pull request or open an issue to report bugs or suggest features.
-
----
-
-## 🛡️ License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙋‍♂️ Questions or Feedback?
-
-If you have any questions, feel free to contact me via [LinkedIn](https://www.linkedin.com/in/your-profile/) or open an issue in this repository.
-
----
-
-Let me know if you'd like me to add or change anything! 😊
