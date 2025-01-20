@@ -3,16 +3,20 @@ const highlightJobs = () => {
     const jobCards = document.querySelectorAll(".job-card-container");
 
     jobCards.forEach((jobCard) => {
-        const statusElement = jobCard.querySelector(".job-status");
-        const textContent = jobCard.textContent || ""; // Get the text content of the job card
+        const statusElement = jobCard.querySelector(
+            ".job-card-container__footer-item.job-card-container__footer-job-state");
 
-        // Apply background color based on keywords in the job card
-        if (textContent.includes("Applied")) {
-            jobCard.style.backgroundColor = "#E57373"; // Applied: Red
-        } else if (textContent.includes("Saved")) {
-            jobCard.style.backgroundColor = "#81C784"; // Saved: Green
-        } else if (textContent.includes("Viewed")) {
-            jobCard.style.backgroundColor = "#2196F3"; // Viewed: Blue
+        if (statusElement) {
+            const statusText = statusElement.textContent.trim(); // Get the status text and trim extra spaces
+
+            // Apply background color based on the job status
+            if (statusText === "Applied") {
+                jobCard.style.backgroundColor = "#E57373"; // Applied: Red
+            } else if (statusText === "Saved") {
+                jobCard.style.backgroundColor = "#81C784"; // Saved: Green
+            } else if (statusText === "Viewed") {
+                jobCard.style.backgroundColor = "#2196F3"; // Viewed: Blue
+            }
         }
     });
 };
