@@ -3,6 +3,7 @@ const highlightJobs = () => {
     const jobCards = document.querySelectorAll(".job-card-container");
 
     jobCards.forEach((jobCard) => {
+        const statusElement = jobCard.querySelector(".job-status");
         const textContent = jobCard.textContent || ""; // Get the text content of the job card
 
         // Apply background color based on keywords in the job card
